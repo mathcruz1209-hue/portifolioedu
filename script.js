@@ -17,30 +17,84 @@ const CONTATO = {
   linkedin: "https://www.linkedin.com/in/edu-freitas-da-hora-b039912a6",
 };
 
-/* ---------- VÍDEOS ----------*/
 
-  
+/* ---------- VÍDEOS ---------- */
+
 const VIDEOS = [
-  { title: "Anúncio da oficina Menina Arteira", src: "menina-arteira-oficina.mp4", poster: "images/thumb-menina-arteira-oficina.jpg", duration: "1:07", desc: "" },
-  { title: "Chaveiro Menina Arteira",           src: "chaveiro-menina-arteira.mp4", poster: "images/thumb-chaveiro-menina-arteira.jpg", duration: "0:38", desc: "" },
-  { title: "Oficina Entre Fios e Raízes (on-line)", src: "entre-fios-e-raizes.mp4", poster: "images/thumb-entre-fios-e-raizes.jpg", duration: "0:48", desc: "" },
-  { title: "Museu literário",                   src: "museu-literario.mp4", poster: "images/thumb-museu-literario.jpg", duration: "0:37", desc: "" },
-  { title: "Festa junina na Praça do Tambor",   src: "festa-junina.mp4", poster: "images/thumb-festa-junina.jpg", duration: "0:37", desc: "" },
-  { title: "Esquenta TDC",                      src: "esquenta-tdc.mp4", poster: "images/thumb-esquenta-tdc.jpg", duration: "0:38", desc: "" },
-  { title: "Despertar da inovação",             src: "despertar-da-inovacao.mp4", poster: "images/thumb-despertar-da-inovacao.jpg", duration: "0:37", desc: "" },
-  { title: "Aula experimental de pole com ginga", src: "pole-com-ginga.mp4", poster: "images/thumb-pole-com-ginga.jpg", duration: "0:35", desc: "" },
-  { title: "Aula de tênis",                     src: "aula-de-tenis.mp4", poster: "images/thumb-aula-de-tenis.jpg", duration: "0:36", desc: "" },
+  {
+    title: "Anúncio da oficina Menina Arteira",
+    src: "menina-arteira-oficina.mp4",
+    poster: "images/thumb-menina-arteira-oficina.jpg",
+    duration: "1:07",
+    desc: ""
+  },
+  {
+    title: "Chaveiro Menina Arteira",
+    src: "chaveiro-menina-arteira.mp4",
+    poster: "images/thumb-chaveiro-menina-arteira.jpg",
+    duration: "0:38",
+    desc: ""
+  },
+  {
+    title: "Oficina Entre Fios e Raízes",
+    src: "entre-fios-e-raizes.mp4",
+    poster: "images/thumb-entre-fios-e-raizes.jpg",
+    duration: "0:48",
+    desc: ""
+  },
+  {
+    title: "Museu literário",
+    src: "museu-literario.mp4",
+    poster: "images/thumb-museu-literario.jpg",
+    duration: "0:37",
+    desc: ""
+  },
+  {
+    title: "Festa junina na Praça do Tambor",
+    src: "festa-junina.mp4",
+    poster: "images/thumb-festa-junina.jpg",
+    duration: "0:37",
+    desc: ""
+  },
+  {
+    title: "Esquenta TDC",
+    src: "esquenta-tdc.mp4",
+    poster: "images/thumb-esquenta-tdc.jpg",
+    duration: "0:38",
+    desc: ""
+  },
+  {
+    title: "Despertar da inovação",
+    src: "despertar-da-inovacao.mp4",
+    poster: "images/thumb-despertar-da-inovacao.jpg",
+    duration: "0:37",
+    desc: ""
+  },
+  {
+    title: "Aula experimental de pole com ginga",
+    src: "pole-com-ginga.mp4",
+    poster: "images/thumb-pole-com-ginga.jpg",
+    duration: "0:35",
+    desc: ""
+  },
+  {
+    title: "Aula de tênis",
+    src: "aula-de-tenis.mp4",
+    poster: "images/thumb-aula-de-tenis.jpg",
+    duration: "0:36",
+    desc: ""
+  }
 ];
 
-/* ---------- IMAGENS ----------
-  
+/* ---------- IMAGENS ---------- */
+
 const IMAGENS = [
-  { src: "images/registro-1.jpg", alt: "Edu filmando com o celular em um suporte, durante um painel com duas pessoas conversando", caption: "" },
-  { src: "images/registro-2.jpg", alt: "Edu em preto e branco, de olhos fechados e com a mão perto do ouvido, em frente a um telão do evento", caption: "Semana Caldeira" },
-  { src: "images/registro-3.jpg", alt: "Edu sorrindo, de pé, com cordão rosa do evento no pescoço e mochila nas costas", caption: "" },
-  { src: "images/registro-4.jpg", alt: "Edu sorrindo, com a cabeça inclinada, em frente a um mural colorido do Geração Caldeira", caption: "Geração Caldeira" },
-  { src: "images/registro-5.jpg", alt: "Edu de perfil, em foto próxima, com adornos de búzios no cabelo e uma pessoa desfocada em primeiro plano", caption: "" },
-  { src: "images/registro-6.jpg", alt: "Participantes de um evento com os braços levantados, sorrindo, em uma sala com vidraça colorida ao fundo", caption: "" },
+  { src: "images/registro-1.jpg", alt: "Registro 1", caption: "" },
+  { src: "images/registro-2.jpg", alt: "Registro 2", caption: "Semana Caldeira" },
+  { src: "images/registro-3.jpg", alt: "Registro 3", caption: "" },
+  { src: "images/registro-4.jpg", alt: "Registro 4", caption: "Geração Caldeira" },
+  { src: "images/registro-5.jpg", alt: "Registro 5", caption: "" },
+  { src: "images/registro-6.jpg", alt: "Registro 6", caption: "" }
 ];
 
 /* =========================================================
