@@ -1334,3 +1334,19 @@ button {
     transform: none;
   }
 }
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+  font-size: 12px;
+}
+
+.logo-geracao {
+  width: 65px;
+  height: auto;
+  object-fit: contain;
+  opacity: 0.85;
+}
