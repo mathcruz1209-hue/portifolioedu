@@ -7,6 +7,17 @@
   <meta name="description" content="Portfólio de Edu Freitas da Hora: vídeos, campanhas e projetos de marketing.">
   <meta name="theme-color" content="#0a0a0a">
 
+  <!-- Prévia ao compartilhar o link (WhatsApp, Instagram, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Edu Freitas da Hora | Marketing, Criatividade e Estratégia">
+  <meta property="og:description" content="Portfólio de Edu Freitas da Hora: vídeos, campanhas e projetos de marketing.">
+  <meta property="og:url" content="https://mathcruz1209-hue.github.io/portifolioedu/">
+  <meta property="og:image" content="https://mathcruz1209-hue.github.io/portifolioedu/images/edu.jpg">
+
+  <!-- Ícone da aba (borboleta, desenhada em SVG, não precisa de arquivo) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%235b5cff' d='M3.468 1.948C5.303 3.325 7.276 6.118 8 7.616c.725-1.498 2.698-4.29 4.532-5.668C13.855.955 16 .186 16 2.632c0 .489-.28 4.105-.444 4.692-.572 2.04-2.653 2.561-4.504 2.246 3.236.551 4.06 2.375 2.281 4.2-3.376 3.464-4.852-.87-5.23-1.98-.07-.204-.103-.3-.103-.218 0-.081-.033.014-.102.218-.379 1.11-1.855 5.444-5.231 1.98-1.778-1.825-.955-3.65 2.28-4.2-1.85.315-3.932-.205-4.503-2.246C.28 6.737 0 3.12 0 2.632 0 .186 2.145.955 3.468 1.948'/%3E%3C/svg%3E">
+
   <!-- Fontes (Google Fonts). Se estiver offline, o navegador usa as fontes de reserva definidas no CSS. -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -73,7 +84,7 @@
         <!--
           FOTO PROFISSIONAL DO EDU:
           salve o arquivo como images/edu.jpg (formato horizontal ou quadrado funciona melhor).
-          Enquanto o arquivo não existir, o espaço reservado aparece automaticamente.
+          Se o arquivo não carregar, o espaço reservado aparece automaticamente.
         -->
         <span class="hero__photo" data-photo>
           <img src="images/edu.jpg" alt="Retrato de Edu Freitas da Hora" width="320" height="180" decoding="async">
@@ -97,6 +108,11 @@
       <h2 id="tTrabalhos">Meus trabalhos</h2>
       <p class="section__note">Vídeos de projetos. Clique para assistir.</p>
     </div>
+
+    <!-- Aparece só se o JavaScript estiver desligado ou falhar -->
+    <noscript>
+      <p class="section__note">Ative o JavaScript do navegador para ver os vídeos e as fotos. Enquanto isso, fale comigo pelo e-mail <a href="mailto:prazerdufreitas@gmail.com"><u>prazerdufreitas@gmail.com</u></a>.</p>
+    </noscript>
 
     <ul class="grid-video" id="videoGrid"></ul>
 
@@ -151,7 +167,7 @@
             <li>Conteúdo para redes sociais</li>
           </ul>
         </div>
-                <div>
+        <div>
           <h3>Experiências</h3>
           <ul class="plain">
             <li>Videomaker, Cia de Dança Brasil Estrangeiro (2023)</li>
@@ -166,7 +182,6 @@
   <section class="section services" id="servicos" aria-labelledby="tServicos">
     <div class="section__head">
       <h2 id="tServicos">Áreas de atuação</h2>
-      
     </div>
 
     <ul class="services__list">
@@ -221,7 +236,7 @@
     <!-- Os endereços ficam em script.js, na constante CONTATO. -->
     <ul class="contact__list">
       <li><a href="#" data-contact="whatsapp"><svg aria-hidden="true"><use href="#i-whatsapp"/></svg><span>WhatsApp <small>+55 51 8115-1246</small></span><svg class="out" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
-            <li><a href="#" data-contact="email"><svg aria-hidden="true"><use href="#i-mail"/></svg><span>E-mail <small>prazerdufreitas@gmail.com</small></span><svg class="out" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+      <li><a href="#" data-contact="email"><svg aria-hidden="true"><use href="#i-mail"/></svg><span>E-mail <small>prazerdufreitas@gmail.com</small></span><svg class="out" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
       <li><a href="#" data-contact="linkedin"><svg aria-hidden="true"><use href="#i-linkedin"/></svg><span>LinkedIn</span><svg class="out" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
     </ul>
   </section>
