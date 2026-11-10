@@ -18,27 +18,22 @@ const CONTATO = {
 };
 
 /* ---------- VÍDEOS ----------
-   Para adicionar um vídeo:
-   1. Coloque o arquivo MP4 (H.264) em 
-   2. Coloque uma imagem de capa em images/
-   3. Copie um bloco abaixo e preencha os campos.
-   Formato recomendado: vertical 9:16, até 720x1280, MP4 H.264 + AAC. */
+
+  
 const VIDEOS = [
-  { title: "Anúncio da oficina Menina Arteira", src: "menina-arteira-oficina.mp4", poster: "images/thumb-menina-arteira-oficina.jpg", duration: "1:07", desc: "Adicione uma descrição curta deste projeto." },
-  { title: "Chaveiro Menina Arteira",           src: "chaveiro-menina-arteira.mp4", poster: "images/thumb-chaveiro-menina-arteira.jpg", duration: "0:38", desc: "Adicione uma descrição curta deste projeto." },
-  { title: "Oficina Entre Fios e Raízes (on-line)", src: "entre-fios-e-raizes.mp4", poster: "images/thumb-entre-fios-e-raizes.jpg", duration: "0:48", desc: "Adicione uma descrição curta deste projeto." },
-  { title: "Museu literário",                   src: "museu-literario.mp4", poster: "images/thumb-museu-literario.jpg", duration: "0:37", desc: "Adicione uma descrição curta deste projeto." },
-  { title: "Festa junina na Praça do Tambor",   src: "festa-junina.mp4", poster: "images/thumb-festa-junina.jpg", duration: "0:37", desc: "Adicione uma descrição curta deste projeto." },
-  { title: "Esquenta TDC",                      src: "esquenta-tdc.mp4", poster: "images/thumb-esquenta-tdc.jpg", duration: "0:38", desc: "Adicione uma descrição curta deste projeto." },
-  { title: "Despertar da inovação",             src: "despertar-da-inovacao.mp4", poster: "images/thumb-despertar-da-inovacao.jpg", duration: "0:37", desc: "Adicione uma descrição curta deste projeto." },
-  { title: "Aula experimental de pole com ginga", src: "pole-com-ginga.mp4", poster: "images/thumb-pole-com-ginga.jpg", duration: "0:35", desc: "Adicione uma descrição curta deste projeto." },
-  { title: "Aula de tênis",                     src: "aula-de-tenis.mp4", poster: "images/thumb-aula-de-tenis.jpg", duration: "0:36", desc: "Adicione uma descrição curta deste projeto." },
+  { title: "Anúncio da oficina Menina Arteira", src: "menina-arteira-oficina.mp4", poster: "images/thumb-menina-arteira-oficina.jpg", duration: "1:07", desc: "" },
+  { title: "Chaveiro Menina Arteira",           src: "chaveiro-menina-arteira.mp4", poster: "images/thumb-chaveiro-menina-arteira.jpg", duration: "0:38", desc: "" },
+  { title: "Oficina Entre Fios e Raízes (on-line)", src: "entre-fios-e-raizes.mp4", poster: "images/thumb-entre-fios-e-raizes.jpg", duration: "0:48", desc: "" },
+  { title: "Museu literário",                   src: "museu-literario.mp4", poster: "images/thumb-museu-literario.jpg", duration: "0:37", desc: "" },
+  { title: "Festa junina na Praça do Tambor",   src: "festa-junina.mp4", poster: "images/thumb-festa-junina.jpg", duration: "0:37", desc: "" },
+  { title: "Esquenta TDC",                      src: "esquenta-tdc.mp4", poster: "images/thumb-esquenta-tdc.jpg", duration: "0:38", desc: "" },
+  { title: "Despertar da inovação",             src: "despertar-da-inovacao.mp4", poster: "images/thumb-despertar-da-inovacao.jpg", duration: "0:37", desc: "" },
+  { title: "Aula experimental de pole com ginga", src: "pole-com-ginga.mp4", poster: "images/thumb-pole-com-ginga.jpg", duration: "0:35", desc: "" },
+  { title: "Aula de tênis",                     src: "aula-de-tenis.mp4", poster: "images/thumb-aula-de-tenis.jpg", duration: "0:36", desc: "" },
 ];
 
 /* ---------- IMAGENS ----------
-   Para adicionar uma imagem: coloque o arquivo em images/ e inclua uma linha:
-   { src: "images/minha-arte.jpg", alt: "Descrição da imagem", caption: "Legenda opcional" },
-   Enquanto a lista estiver vazia, a galeria mostra espaços reservados. */
+  
 const IMAGENS = [
   { src: "images/registro-1.jpg", alt: "Edu filmando com o celular em um suporte, durante um painel com duas pessoas conversando", caption: "" },
   { src: "images/registro-2.jpg", alt: "Edu em preto e branco, de olhos fechados e com a mão perto do ouvido, em frente a um telão do evento", caption: "Semana Caldeira" },
@@ -72,7 +67,7 @@ const IMAGENS = [
     }
   });
 
-  /* ----- Fotos: mostra a imagem se o arquivo existir, senão o espaço reservado ----- */
+  
   $$("[data-photo]").forEach(box => {
     const img = $("img", box);
     const ok = () => box.classList.add("has-image");
