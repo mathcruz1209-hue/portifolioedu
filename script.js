@@ -12,7 +12,7 @@
    Enquanto um campo estiver vazio, o botão correspondente não faz nada. */
 const CONTATO = {
   whatsapp: "https://wa.me/555181151246",
-  instagram: "https://www.instagram.com/prazerdufreitas",
+  
   email: "mailto:prazerdufreitas@gmail.com",
   linkedin: "https://www.linkedin.com/in/edu-freitas-da-hora-b039912a6",
 };
