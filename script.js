@@ -17,7 +17,7 @@ const CONTATO = {
   linkedin: "https://www.linkedin.com/in/edu-freitas-da-hora-b039912a6",
 };
 
-/* ---------- VÍDEOS ----------
+/* ---------- VÍDEOS ----------*/
 
   
 const VIDEOS = [
