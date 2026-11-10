@@ -21,15 +21,15 @@ const CONTATO = {
 
   
 const VIDEOS = [
-  { title: "Anúncio da oficina Menina Arteira", src: "menina-arteira-oficina.mp4", poster: "images/thumb-menina-arteira-oficina.jpg", duration: "1:07", desc: "" },
-  { title: "Chaveiro Menina Arteira",           src: "chaveiro-menina-arteira.mp4", poster: "images/thumb-chaveiro-menina-arteira.jpg", duration: "0:38", desc: "" },
-  { title: "Oficina Entre Fios e Raízes (on-line)", src: "entre-fios-e-raizes.mp4", poster: "images/thumb-entre-fios-e-raizes.jpg", duration: "0:48", desc: "" },
-  { title: "Museu literário",                   src: "museu-literario.mp4", poster: "images/thumb-museu-literario.jpg", duration: "0:37", desc: "" },
-  { title: "Festa junina na Praça do Tambor",   src: "festa-junina.mp4", poster: "images/thumb-festa-junina.jpg", duration: "0:37", desc: "" },
-  { title: "Esquenta TDC",                      src: "esquenta-tdc.mp4", poster: "images/thumb-esquenta-tdc.jpg", duration: "0:38", desc: "" },
-  { title: "Despertar da inovação",             src: "despertar-da-inovacao.mp4", poster: "images/thumb-despertar-da-inovacao.jpg", duration: "0:37", desc: "" },
-  { title: "Aula experimental de pole com ginga", src: "pole-com-ginga.mp4", poster: "images/thumb-pole-com-ginga.jpg", duration: "0:35", desc: "" },
-  { title: "Aula de tênis",                     src: "aula-de-tenis.mp4", poster: "images/thumb-aula-de-tenis.jpg", duration: "0:36", desc: "" },
+  { title: "Anúncio da oficina Menina Arteira", src: "menina-arteira-oficina.mp4", poster: "images/thumb-menina-arteira-oficina.jpg", duration: "1:07", desc: "." },
+  { title: "Chaveiro Menina Arteira",           src: "chaveiro-menina-arteira.mp4", poster: "images/thumb-chaveiro-menina-arteira.jpg", duration: "0:38", desc: "." },
+  { title: "Oficina Entre Fios e Raízes (on-line)", src: "entre-fios-e-raizes.mp4", poster: "images/thumb-entre-fios-e-raizes.jpg", duration: "0:48", desc: "." },
+  { title: "Museu literário",                   src: "museu-literario.mp4", poster: "images/thumb-museu-literario.jpg", duration: "0:37", desc: "." },
+  { title: "Festa junina na Praça do Tambor",   src: "festa-junina.mp4", poster: "images/thumb-festa-junina.jpg", duration: "0:37", desc: "." },
+  { title: "Esquenta TDC",                      src: "esquenta-tdc.mp4", poster: "images/thumb-esquenta-tdc.jpg", duration: "0:38", desc: "." },
+  { title: "Despertar da inovação",             src: "despertar-da-inovacao.mp4", poster: "images/thumb-despertar-da-inovacao.jpg", duration: "0:37", desc: "." },
+  { title: "Aula experimental de pole com ginga", src: "pole-com-ginga.mp4", poster: "images/thumb-pole-com-ginga.jpg", duration: "0:35", desc: "." },
+  { title: "Aula de tênis",                     src: "aula-de-tenis.mp4", poster: "images/thumb-aula-de-tenis.jpg", duration: "0:36", desc: "." },
 ];
 
 /* ---------- IMAGENS ----------
